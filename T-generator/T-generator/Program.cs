@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace TGenerator
+namespace lightman210567.TGenerator
 {
     class Generator
     {
