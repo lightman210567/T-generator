@@ -5,7 +5,7 @@ using lightman210567.TGenerator;
 namespace TGenerator.Tests
 {
     [TestClass]
-    internal class GridTests
+    public class FalseReturningGridTest
     {
         // Checks if 4 values make the test fail like they should (less than 1/more than 90)
         [TestMethod]
