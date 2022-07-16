@@ -348,3 +348,6 @@ MigrationBackup/
 
 # Ionide (cross platform F# VS Code tools) working folder
 .ionide/
+
+# Test File (used to test the framework and is not part of the code)
+TestFile.cs
