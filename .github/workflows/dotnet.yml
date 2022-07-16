@@ -1,0 +1,25 @@
+name: .NET
+
+on:
+  push:
+    branches: [ "master" ]
+  pull_request:
+    branches: [ "master" ]
+
+jobs:
+  build:
+
+    runs-on: windows-latest
+
+    steps:
+    - uses: actions/checkout@v3
+    - name: Setup .NET
+      uses: actions/setup-dotnet@v2
+      with:
+        dotnet-version: 6.0.x
+    - name: Restore
+      run: dotnet restore $Env:GITHUB_WORKSPACE\T-generator\T-generator.sln
+    - name: Build
+      run: dotnet build --no-restore $Env:GITHUB_WORKSPACE\T-generator\T-generator.sln
+    - name: Test
+      run: dotnet test --no-build --verbosity normal $Env:GITHUB_WORKSPACE\T-generator\T-generator.sln
