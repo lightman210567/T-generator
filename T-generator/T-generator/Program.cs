@@ -6,11 +6,12 @@ namespace lightman210567.TGenerator
     {
         public static int TGenerate(int T) // requires a int value returned
         {
-            if (T < 1)
+            // The if statements check if the input number is in a 9x9 grid. 9x9 grids contain numbers 1-90
+            if (T < 1) // if T is less than 1 then throw an exception
             {
                 throw new ArgumentException($"Input number must be 1 or larger");
             } 
-            else if (T > 90)
+            else if (T > 90) // if T is more than 90 throw an exception
             {
                 throw new ArgumentException("Input number must be less than or equal to 90");
             }
