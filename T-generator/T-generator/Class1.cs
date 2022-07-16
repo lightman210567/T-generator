@@ -1,7 +1,12 @@
-﻿namespace T_generator
-{
-    public class Class1
-    {
+﻿using System;
 
+namespace TGenerator
+{
+    class Program
+    {
+        public int Tgenerate(int T) // requires a int value returned
+        {
+            
+        }
     }
 }
