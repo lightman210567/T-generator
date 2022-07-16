@@ -2,7 +2,7 @@
 
 namespace TGenerator
 {
-    class Program
+    class Generator
     {
         public int Tgenerate(int T) // requires a int value returned
         {
