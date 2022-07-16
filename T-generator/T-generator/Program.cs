@@ -2,7 +2,7 @@
 
 namespace lightman210567.TGenerator
 {
-    class Generator
+    public class Generator
     {
         public static int TGenerate(int T) // requires a int value returned
         {
