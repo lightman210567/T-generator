@@ -5,6 +5,11 @@
     <RootNamespace>T_generator</RootNamespace>
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
+    <PackageId>lightman210567.TGenerator</PackageId>
+    <Version>1.0.0</Version>
+    <Authors>lightman210567</Authors>
+    <RepositoryUrl>https://github.com/lightman210567/T-generator</RepositoryUrl>
+    <RepositoryType>git</RepositoryType>
   </PropertyGroup>
 
 </Project>

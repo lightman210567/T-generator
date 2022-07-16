@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package >
+  <metadata>
+    <id>lightman210567.TGenerator</id>
+    <version>1.0.0</version>
+    <authors>lightman210567</authors>
+    <requireLicenseAcceptance>true</requireLicenseAcceptance>
+    <license type="expression">MIT</license>
+    <!-- <icon>icon.png</icon> -->
+    <projectUrl>https://github.com/lightman210567/T-generator</projectUrl>
+    <description>a package to generate T-totals</description>
+  </metadata>
+</package>
