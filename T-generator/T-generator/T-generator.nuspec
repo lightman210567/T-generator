@@ -9,5 +9,6 @@
     <!-- <icon>icon.png</icon> -->
     <projectUrl>https://github.com/lightman210567/T-generator</projectUrl>
     <description>a package to generate T-totals</description>
+    <releaseNotes>Fixed the Generate class access modifier. The package can now be used as the class has the public access modifier.</releaseNotes>
   </metadata>
 </package>
