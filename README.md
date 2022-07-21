@@ -3,6 +3,8 @@
 [![.NET](https://github.com/lightman210567/T-generator/actions/workflows/dotnet.yml/badge.svg?branch=master)](https://github.com/lightman210567/T-generator/actions/workflows/dotnet.yml)
 [![CodeQL](https://github.com/lightman210567/T-generator/actions/workflows/codeql-analysis.yml/badge.svg)](https://github.com/lightman210567/T-generator/actions/workflows/codeql-analysis.yml)
 
+this package can be found at https://www.nuget.org/packages/lightman210567.TGenerator/
+
 ## Overview
 
 T-generator will create a T-total for any number on a 9x9 grid.
